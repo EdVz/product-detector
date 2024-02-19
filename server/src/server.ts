@@ -26,6 +26,8 @@ app.use('/api/products', productRoutes);
 
 // ----------------Deplyment -------------------
 const __dirname1 = path.resolve(__dirname, "..", "..");
+console.log(__dirname1);
+
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname1, "/client/dist")));
 

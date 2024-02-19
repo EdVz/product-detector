@@ -10,7 +10,7 @@
     "build:client": "npm run build --prefix client",
     "build": "npm run install:server && npm run install:client && npm run build:server && npm run build:client",
     "start": "node server/dist/server.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\" "
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q server/dist/server.js\" "
   },
   "keywords": [],
   "author": "Eduardo Vargas",
