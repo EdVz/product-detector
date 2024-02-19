@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "install:server": "npm install",
+    "install:server": "npm install --production=false",
     "install:client": "npm install --prefix client --production=false",
     "build:server": "tsc",
     "build:client": "npm run build --prefix client",
