@@ -116,7 +116,7 @@ const ProductDetection = () => {
 		let inputsAsTensor = tf.stack(trainingDataInputs); //convert array of tensors to a 2D tensor
 
 		//train the model with the newly acquired samples
-		let results = await model.fit(inputsAsTensor, oneHotOutputs, { shuffle: true, batchSize: 5, epochs: 10, callbacks: { onEpochEnd: logProgress } });
+		await model.fit(inputsAsTensor, oneHotOutputs, { shuffle: true, batchSize: 5, epochs: 10, callbacks: { onEpochEnd: logProgress } });
 
 		outputAsTensor.dispose();
 		oneHotOutputs.dispose();

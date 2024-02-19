@@ -1,4 +1,4 @@
-import AccessForm from "../components/auth/accessForm";
+import AccessForm from "../components/auth/AccessForm";
 
 const Signup = () => {
     return (

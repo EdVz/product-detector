@@ -1,4 +1,4 @@
-import { Box, List, ListIcon, ListItem, OrderedList, Text, useToast } from '@chakra-ui/react';
+import { Box, List, ListIcon, ListItem, Text } from '@chakra-ui/react';
 import { Bs1CircleFill, Bs2CircleFill, Bs3CircleFill, Bs4CircleFill, Bs5CircleFill, Bs6CircleFill } from 'react-icons/bs';
 
 const Instructions = () => {

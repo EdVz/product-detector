@@ -1,4 +1,4 @@
-import { Box, List, ListIcon, ListItem, OrderedList, Text, useToast } from '@chakra-ui/react';
+import { Box, Text, useToast } from '@chakra-ui/react';
 import { useNewObject } from '../context/newObjectContext';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
